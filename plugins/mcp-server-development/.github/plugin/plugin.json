@@ -1,0 +1,28 @@
+{
+  "name": "mcp-server-development",
+  "description": "Complete toolkit for building, extending, and securing MCP (Model Context Protocol) servers — covers interactive UI apps (ext-apps), OAuth authentication (ext-auth client credentials & enterprise SSO), official reference server integration, and the MCP extension negotiation system. Skills are available as VS Code Copilot prompt files under .github/copilot/*.prompt.md (local workspace use) and as installable plugin skills under skills/ (distributable format).",
+  "version": "1.0.0",
+  "author": {
+    "name": "HRMCPApp"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "ext-apps",
+    "ext-auth",
+    "oauth",
+    "enterprise-sso",
+    "interactive-ui"
+  ],
+  "skills": [
+    "./skills/mcp-extensions-overview",
+    "./skills/create-mcp-app",
+    "./skills/add-app-to-server",
+    "./skills/migrate-oai-app",
+    "./skills/convert-web-app",
+    "./skills/implement-client-credentials",
+    "./skills/implement-enterprise-auth",
+    "./skills/use-mcp-reference-servers"
+  ]
+}
