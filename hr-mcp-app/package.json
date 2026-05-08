@@ -1,0 +1,37 @@
+{
+  "name": "hr-mcp-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development concurrently \"cross-env INPUT=mcp-app.html vite build --watch\" \"tsx --watch main.ts\"",
+    "build": "cross-env INPUT=mcp-app.html vite build",
+    "serve": "tsx main.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@azure/identity": "*",
+    "@microsoft/microsoft-graph-client": "*",
+    "@modelcontextprotocol/ext-apps": "*",
+    "@modelcontextprotocol/sdk": "*",
+    "cors": "*",
+    "express": "*",
+    "react": "*",
+    "react-dom": "*",
+    "zod": "*"
+  },
+  "devDependencies": {
+    "@types/cors": "*",
+    "@types/express": "*",
+    "@types/node": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "@vitejs/plugin-react": "*",
+    "concurrently": "*",
+    "cross-env": "*",
+    "tsx": "*",
+    "typescript": "*",
+    "vite": "*",
+    "vite-plugin-singlefile": "*"
+  }
+}
